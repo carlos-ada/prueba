@@ -39,4 +39,9 @@ public class PruebaFuncion1 {
     void testFuncion1() {
     	assertEquals(false, Funcion1.funcion1((int)(Math.random() * 10)));
     }
+	@DisplayName("Carlos Villar")
+	@Test
+	void funcion2Test2() {
+		assertNotEquals(false, f.numeroIntervalo(200));
+	}
 }
